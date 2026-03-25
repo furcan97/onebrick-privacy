@@ -152,7 +152,7 @@
       <span class="emoji">🧱</span>
       <h1>Buy a Brick</h1>
       <div class="subtitle">Privacy Policy</div>
-      <div class="last-updated">Last updated: March 21, 2026</div>
+      <div class="last-updated">Last updated: March 25, 2026</div>
     </div>
 
     <h2>Overview</h2>
@@ -165,9 +165,21 @@
       If you do not agree, please discontinue use of the app.
     </p>
 
+    <h2>Guest (Anonymous) Accounts</h2>
+    <p>
+      You may use Buy a Brick without creating an account by choosing <strong>Continue as Guest</strong>.
+      This creates an anonymous account on your device using Firebase Authentication.
+    </p>
+    <ul>
+      <li>Your bricks and progress are stored under this anonymous account and remain available as long as the app is installed on the same device.</li>
+      <li>Anonymous accounts are not linked to any personal information such as email address or name.</li>
+      <li>If you uninstall the app, your anonymous account and all associated data are permanently deleted and cannot be recovered.</li>
+      <li>You can upgrade to a permanent account at any time from within the app. Your bricks are automatically transferred to the new account.</li>
+    </ul>
+
     <h2>Data We Collect</h2>
     <ul>
-      <li><strong>Authentication:</strong> Email address and username (via Firebase Authentication).</li>
+      <li><strong>Authentication:</strong> Email address and username (registered accounts), or an anonymous device-bound identifier (guest accounts) — via Firebase Authentication.</li>
       <li><strong>User data:</strong> Username, total brick count, brick collection details, and unvan (rank) — stored in Firestore.</li>
       <li><strong>Purchase history:</strong> In-app purchase records managed via RevenueCat and your platform's billing system (App Store / Google Play).</li>
       <li><strong>Global counter:</strong> An anonymized global total of all bricks opened across all users — used to determine rarity outcomes. No personal data is included in this counter.</li>
